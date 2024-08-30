@@ -9,7 +9,6 @@ class ThabeloCV:
         self.summary = summary
         self.experience = experience
         self.education = education
-
 #Displays the method which prints the CV details in the formatted way.
     def display_cv(self):
         print(f"Name: {self.name}\n")
@@ -36,7 +35,6 @@ class ThabeloCV:
             print(f"  {course['title']} ({course['dates']})")
             for detail in course['details']:
                 print(f"    • {detail}")
-
 # Personal Information
 name = "Thabelo Muthuvhukuma"
 contact_info = {
@@ -51,6 +49,8 @@ contact_info = {
 skills = [
     "Python",
     "CI/CD",
+    "Shell Scripting (Bash)",
+    "Agile Development",
     "HTML, CSS & JavaScript"
 ]
 
@@ -59,14 +59,18 @@ certifications = {
     "AWS": [
         "AWS Cloud Practitioner",
         "AWS Certified Solutions Architect",
-        "AWS Certified Developer"
+        "AWS Certified Developer Associate"
     ],
     "IBM Software Engineering & DevOps": [
         "IBM Python for Data Science, AI, AI Applications & Development",
         "IBM Agile Development & Scrum",
         "IBM Introduction to DevOps",
+        "IBM Introduction to Cloud Computing",
+        "IBM Linux Commands and Shell Scripting",
         "IBM Application Development using Microservices & Serverless",
         "IBM Continuous Integration and Continuous Delivery",
+        "IBM Git and Github",
+        "IBM Developing AI Applications with Python and Flask",
         "IBM Introduction to Containers w/ Docker, Kubernetes & OpenShift"
     ]
 }
@@ -79,17 +83,17 @@ summary = (
     "enthusiastic about applying my technical knowledge and problem-solving skills to support cloud projects."
 )
 
-# Work Experience
+# Working Experience
 experience = [
     {
         "position": "AWS FACILITATOR",
         "company": "Praesignis",
         "dates": "September 2022-Current",
         "responsibilities": [
-            "Oversee an intensive training course on the fundamentals of Amazon Web Services (AWS).",
-            "Guide students through engaging lectures and hands-on experiences.",
-            "Foster a collaborative environment for mastering essential cloud skills.",
-            "Aim to equip students for successful and fulfilling careers in the technology sector."
+            "-Oversee an intensive training course on the fundamentals of Amazon Web Services (AWS).",
+            "-Guide students through engaging lectures and hands-on experiences.",
+            "-Foster a collaborative environment for mastering essential cloud skills.",
+            "-Aim to equip students for successful and fulfilling careers in the technology sector."
         ]
     },
     {
@@ -97,11 +101,11 @@ experience = [
         "company": "Praesignis",
         "dates": "October 2021 – August 2022",
         "responsibilities": [
-            "Assisted the Full-Stack Developer in designing and implementing features for internal systems.",
-            "Played a role in sprint planning and retrospectives using Jira and Trello.",
-            "Contributed to both front-end and back-end development tasks.",
-            "Performed thorough testing to ensure software quality and functionality.",
-            "Actively engaged in the full software development lifecycle to deliver efficient and effective solutions."
+            "-Assisted the Full-Stack Developer in designing and implementing features for internal systems.",
+            "-Played a role in sprint planning and retrospectives using Jira and Trello.",
+            "-Contributed to both front-end and back-end development tasks.",
+            "-Performed thorough testing to ensure software quality and functionality.",
+            "-Actively engaged in the full software development lifecycle to deliver efficient and effective solutions."
         ]
     },
     {
@@ -109,8 +113,8 @@ experience = [
         "company": "Praesignis",
         "dates": "January 2021-September 2021",
         "responsibilities": [
-            "Earned IT-Tech Support and AWS Cloud Practitioner certifications",
-            "Demonstrated strong skills in technical support and foundational AWS cloud concepts"
+            "-Earned IT-Tech Support and AWS Cloud Practitioner certifications",
+            "-Demonstrated strong skills in technical support and foundational AWS cloud concepts"
         ]
     }
 ]
@@ -121,10 +125,10 @@ education = [
         "title": "IBM DevOps and Software Engineering Professional Certificate",
         "dates": "February 2024-Current",
         "details": [
-            "Embrace DevOps: Use Agile and Scrum practices to streamline development and operations.",
-            "Build with Python: Develop applications using Python, focusing on functions, REST APIs, and libraries.",
-            "Work with Microservices: Create and deploy applications using microservices, containers like Docker and Kubernetes, and serverless options.",
-            "Automate & Integrate: Apply automation and continuous integration/deployment with tools such as Chef, Puppet, and GitHub Actions."
+            "-Embrace DevOps: Use Agile and Scrum practices to streamline development and operations.",
+            "-Build with Python: Develop applications using Python, focusing on functions, REST APIs, and libraries.",
+            "-Work with Microservices: Create and deploy applications using microservices, containers like Docker and Kubernetes, and serverless options.",
+            "-Automate & Integrate: Apply automation and continuous integration/deployment with tools such as Chef, Puppet, and GitHub Actions."
         ]
     }
 ]
